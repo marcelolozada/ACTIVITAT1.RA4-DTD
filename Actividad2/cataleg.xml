@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cataleg SYSTEM "cataleg.dtd">
+<cataleg>
+    <llista_actors>
+        <actor id="a1">
+            <nom>Tom Hanks</nom>
+            <edat>67</edat>
+        </actor>
+        <actor id="a2">
+            <nom>Meryl Streep</nom>
+            <edat>74</edat>
+        </actor>
+        <actor id="a3">
+            <nom>Leonardo DiCaprio</nom>
+        </actor>
+    </llista_actors>
+    <llista_pelicules>
+        <pelicula id="p1">
+            <titol idioma="en">Forrest Gump</titol>
+            <director>Robert Zemeckis</director>
+            <any>1994</any>
+            <actors>
+                <actor_ref ref="a1"/>
+            </actors>
+        </pelicula>
+        <pelicula id="p2">
+            <titol idioma="en">The Devil Wears Prada</titol>
+            <director>David Frankel</director>
+            <any>2006</any>
+            <actors>
+                <actor_ref ref="a2"/>
+            </actors>
+        </pelicula>
+        <pelicula id="p3">
+            <titol idioma="en">Inception</titol>
+            <director>Christopher Nolan</director>
+            <any>2010</any>
+            <actors>
+                <actor_ref ref="a3"/>
+            </actors>
+        </pelicula>
+    </llista_pelicules>
+    <llista_recomanacions_pelicules>
+        <recomanacio ref="p1"/>
+        <recomanacio ref="p3"/>
+    </llista_recomanacions_pelicules>
+</cataleg>
